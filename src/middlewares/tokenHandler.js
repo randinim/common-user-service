@@ -8,7 +8,7 @@ const {
 const UnauthorizedException = require("../exceptions/UnauthorizedException");
 
 const unsecuredEndpoints = {
-  ["/v1/health"]: { method: "GET" },
+  ["/health"]: { method: "GET" },
   ["/auth/v1/register"]: { method: "POST" },
   ["/auth/v1/login"]: { method: "POST" },
 };
